@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BookStoreApp</string>
+    <string name="category">Category:</string>
+    <string name="coffee_shop">Book Lending</string>
+    <string name="arvin">Arvin</string>
+    <string name="categories">Categories:</string>
+    <string name="fantasy">Fantasy</string>
+    <string name="thriller">Thriller</string>
+    <string name="quantity">QUANTITY:</string>
+    <string name="price">PRICE:</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="order">Order</string>
+    <string name="cancel">Cancel</string>
+    <string name="thanks_for_your_order">Thanks for your order</string>
+
+</resources>
