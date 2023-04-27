@@ -42,9 +42,10 @@
         android:id="@+id/txtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="352dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="320dp"
         android:text="@string/arvin"
+        android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -88,7 +89,7 @@
         android:id="@+id/fantasy_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="176dp"
+        android:layout_marginTop="184dp"
         android:layout_marginEnd="240dp"
         android:text="@string/fantasy"
         android:textSize="18sp"
@@ -127,13 +128,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/qtySold"
+        android:id="@+id/qtySelected"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="328dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="320dp"
         android:layout_marginEnd="188dp"
         android:text=""
+        android:textSize="21sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toEndOf="@+id/lblQuantity"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -150,22 +156,23 @@
         android:id="@+id/lblQtySelected"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
         android:layout_marginTop="612dp"
-        android:layout_marginEnd="328dp"
         android:text=""
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/lblName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
         android:layout_marginTop="556dp"
-        android:layout_marginEnd="328dp"
         android:text=""
         android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/lblThanks"
@@ -181,19 +188,31 @@
         android:id="@+id/lblCategorySelected"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
         android:layout_marginTop="580dp"
-        android:layout_marginEnd="328dp"
         android:text=""
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/lblPriceSelected"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
         android:layout_marginTop="640dp"
-        android:layout_marginEnd="328dp"
         android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="214dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

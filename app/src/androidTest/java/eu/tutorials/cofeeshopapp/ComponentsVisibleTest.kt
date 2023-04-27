@@ -17,7 +17,7 @@ class ComponentsVisibleTest {
  @Test
  fun isVisible(){
   onView(withId(R.id.btnPlus)).check(matches(isDisplayed()))
-  onView(withId(R.id.qtySold)).check(matches(isDisplayed()))
+  onView(withId(R.id.qtySelected)).check(matches(isDisplayed()))
   onView(withId(R.id.btnCancel)).check(matches(isDisplayed()))
   onView(withId(R.id.btnOrder)).check(matches(isDisplayed()))
   onView(withId(R.id.btnMinus)).check(matches(isDisplayed()))
